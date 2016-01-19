@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html>  
+  <head>
+    <title>Golf score keeper</title>
+    <script src="http://www.google.com/jsapi"></script>
+    <script>
+      google.load("jquery", "1.4.1");
+    </script>
+</head>
+	<body>
+	    <script>
+	    function hasGetUserMedia() {
+	    	return !!(navigator.getUserMedia || navigator.webkitGetUserMedia ||
+	    		navigator.mozGetUserMedia || navigator.msGetUserMedia);
+	    }
+	    if (hasGetUserMedia()) {
+	  	// Good to go!
+		} else {
+		alert('getUserMedia() is not supported in your browser');
+		}
+		</script>
+	</body>
+</html>
+
